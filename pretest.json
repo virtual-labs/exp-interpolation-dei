@@ -1,0 +1,27 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which interpolation method uses polynomials that pass through all given data points to estimate intermediate values?",
+      "answers": {
+        "a": "Linear Interpolation",
+        "b": "Lagrange Interpolation",
+        "c": "Newton's Divided Differences",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Given the points (1, 2) and (3, 6), what is the interpolated value of yyy at x=2x = 2x=2 using Linear Interpolation??",
+      "answers": {
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "d": "6"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
