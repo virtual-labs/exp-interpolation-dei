@@ -2,35 +2,23 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which interpolation method calculates intermediate points by creating a polynomial that passes through all given data points?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Linear Interpolation",
+        "b": "Lagrange Interpolation",
+        "c": "Newton's Divided Differences",
+        "d": "Spline Interpolation"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In the interpolation methods implemented in the calculator, the key input parameters are:?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Only y-coordinates",
+        "b": "Only x-coordinates",
+        "c": "Paired x and y coordinates",
+        "d": "Derivative values Answer"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
