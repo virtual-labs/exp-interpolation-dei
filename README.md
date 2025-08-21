@@ -1,24 +1,23 @@
 ## Introduction
 
+<b>Discipline | <b> Computer Science  
+:--|:--|  
+<b> Lab | <b> Scientific Computing  
+<b> Experiment|     <b> Interpolation using various methods with evenly spaced and unevenly spaced points  
 
-<b>Discipline | <b>Fill your discipline name here
-:--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+### About the Experiment  
 
-### About the Experiment 
+This experiment deals with the study and implementation of interpolation techniques for estimating unknown values of a function between known data points. It covers methods such as Newton’s Forward and Backward Difference interpolation for evenly spaced points, and Lagrange’s interpolation for unevenly spaced data points. Through this experiment, students learn how interpolation provides a powerful tool for numerical approximation, curve fitting, and solving practical scientific and engineering problems where direct analytical solutions are not feasible.  
 
-Fill a brief description of this experiment here
+<b>Name of Developer | <b> Dr. Sanjay Saini  
+:--|:--|  
+<b> Institute | <b> Dayalbagh Educational Institute  
+<b> Email id|     <b> sanjay.saini@dei.ac.in  
+<b> Department |  <b> Physics and Computer Science  
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
-:--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+### Contributors List  
 
-### Contributors List
-
-SrNo | Name | Faculty or Student | Department| Institute | Email id
-:--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+SrNo | Name | Faculty or Student | Department | Institute | Email id  
+:--|:--|:--|:--|:--|:--|  
+1 | Aditya Vardhan | Student | Physics and Computer Sci. | Dayalbagh Educational Institute | vardhana3098@gmail.com  
+2 | Mohit Yadav | Student | Physics and Computer Sci. | Dayalbagh Educational Institute | mohityadavdei@yahoo.com 
