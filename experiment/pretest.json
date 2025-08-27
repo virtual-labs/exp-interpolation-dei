@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Given the points (1, 2) and (3, 6), what is the interpolated value of yyy at x=2x = 2x=2 using Linear Interpolation??",
+      "question": "Given the points (1, 2) and (3, 6), what is the interpolated value of y at x=2 using Linear Interpolation?",
       "answers": {
         "a": "3",
         "b": "4",
@@ -21,6 +21,50 @@
         "d": "6"
       },
       "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Interpolation is mainly used to:",
+      "answers": {
+        "a": "Estimate values between known data points",
+        "b": "Estimate values outside the given data range",
+        "c": "Solve differential equations",
+        "d": "Find maximum and minimum values"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following interpolation methods is most suitable for evenly spaced data points?",
+      "answers": {
+        "a": "Newton’s Forward Interpolation",
+        "b": "Lagrange Interpolation",
+        "c": "Newton’s Divided Difference",
+        "d": "Cubic Spline"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of error typically increases with higher-order polynomial interpolation?",
+      "answers": {
+        "a": "Round-off error",
+        "b": "Runge’s phenomenon (oscillations)",
+        "c": "Truncation error",
+        "d": "No error occurs"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which input values are essential for performing interpolation?",
+      "answers": {
+        "a": "Only y-values",
+        "b": "Only x-values",
+        "c": "Both x and y values",
+        "d": "Derivative values"
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
