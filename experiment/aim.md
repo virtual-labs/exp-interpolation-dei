@@ -1,6 +1,6 @@
 ## Aim of the Experiment  
 
-The primary aim of this experiment is to **explore the concept of interpolation** and apply various systematic numerical methods to estimate the value of a function at intermediate points using both **evenly spaced** and **unevenly spaced** data.  
+The aim of this experiment is to **explore the concept of interpolation** and apply various systematic numerical methods to estimate the value of a function at intermediate points using both **evenly spaced** and **unevenly spaced** data.  
 
 ---
 
