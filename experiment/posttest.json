@@ -9,19 +9,17 @@
         "c": "Newton's Divided Differences",
         "d": "Spline Interpolation"
       },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     },
     {
-      "question": "In the interpolation methods implemented in the calculator, the key input parameters are:?",
+      "question": "In the interpolation methods implemented in the calculator, the key input parameters are?",
       "answers": {
         "a": "Only y-coordinates",
         "b": "Only x-coordinates",
         "c": "Paired x and y coordinates",
         "d": "Derivative values"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "c"
     },
     {
       "question": "Newton’s Forward and Backward Interpolation methods are best suited for which type of data?",
@@ -31,8 +29,7 @@
         "c": "Evenly spaced points",
         "d": "Continuous functions only"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "c"
     },
     {
       "question": "Which interpolation method is commonly used when data points are not evenly spaced?",
@@ -42,8 +39,7 @@
         "c": "Newton’s Backward Interpolation",
         "d": "Linear Approximation"
       },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "correctAnswer": "b"
     },
     {
       "question": "What is the main drawback of polynomial interpolation for a large number of data points?",
@@ -53,8 +49,7 @@
         "c": "It may cause oscillations and instability (Runge’s phenomenon)",
         "d": "It cannot pass through given points"
       },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "correctAnswer": "c"
     },
     {
       "question": "Interpolation is primarily used to:",
@@ -64,8 +59,47 @@
         "c": "Solve differential equations directly",
         "d": "Approximate integrals of functions"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Which interpolation method creates a smooth curve using piecewise low-degree polynomials?",
+      "answers": {
+        "a": "Cubic Spline Interpolation",
+        "b": "Lagrange Interpolation",
+        "c": "Linear Interpolation",
+        "d": "Forward Difference Method"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "Newton’s Divided Difference Interpolation is particularly useful for:",
+      "answers": {
+        "a": "Equidistant data only",
+        "b": "Unequally spaced data",
+        "c": "Trigonometric data",
+        "d": "Data with derivative information"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which of the following represents the mathematical error involved in interpolation?",
+      "answers": {
+        "a": "Interpolation polynomial",
+        "b": "Residual or remainder term",
+        "c": "Basis polynomial",
+        "d": "Difference table"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "When data changes rapidly between points, which interpolation method is preferred for better accuracy?",
+      "answers": {
+        "a": "Linear Interpolation",
+        "b": "High-order Polynomial Interpolation",
+        "c": "Spline Interpolation",
+        "d": "Extrapolation"
+      },
+      "correctAnswer": "c"
     }
   ]
 }

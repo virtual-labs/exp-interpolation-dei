@@ -9,8 +9,7 @@
         "c": "Newton's Divided Differences",
         "d": "None of the above"
       },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     },
     {
       "question": "Given the points (1, 2) and (3, 6), what is the interpolated value of y at x=2 using Linear Interpolation?",
@@ -20,8 +19,7 @@
         "c": "5",
         "d": "6"
       },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      "correctAnswer": "b"
     },
     {
       "question": "Interpolation is mainly used to:",
@@ -31,8 +29,7 @@
         "c": "Solve differential equations",
         "d": "Find maximum and minimum values"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "a"
     },
     {
       "question": "Which of the following interpolation methods is most suitable for evenly spaced data points?",
@@ -42,8 +39,7 @@
         "c": "Newton’s Divided Difference",
         "d": "Cubic Spline"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "a"
     },
     {
       "question": "What type of error typically increases with higher-order polynomial interpolation?",
@@ -53,8 +49,7 @@
         "c": "Truncation error",
         "d": "No error occurs"
       },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "correctAnswer": "b"
     },
     {
       "question": "Which input values are essential for performing interpolation?",
@@ -64,8 +59,47 @@
         "c": "Both x and y values",
         "d": "Derivative values"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Which interpolation technique fits a smooth curve through the given points using piecewise polynomials?",
+      "answers": {
+        "a": "Linear Interpolation",
+        "b": "Cubic Spline Interpolation",
+        "c": "Lagrange Interpolation",
+        "d": "Forward Difference Method"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Newton’s Divided Difference interpolation method is mainly used for:",
+      "answers": {
+        "a": "Equally spaced data only",
+        "b": "Randomly spaced (uneven) data points",
+        "c": "Trigonometric functions",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "Which term in interpolation represents the error between the actual function and the interpolated function?",
+      "answers": {
+        "a": "Interpolation polynomial",
+        "b": "Newton coefficient",
+        "c": "Remainder term",
+        "d": "Basis polynomial"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "Which of the following is a limitation of polynomial interpolation?",
+      "answers": {
+        "a": "Only works for linear data",
+        "b": "Oscillations occur for large number of points",
+        "c": "It cannot estimate values between points",
+        "d": "Requires derivatives"
+      },
+      "correctAnswer": "b"
     }
   ]
 }
