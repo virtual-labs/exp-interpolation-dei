@@ -1,31 +1,46 @@
 ## Theory  
 
-Interpolation is a fundamental numerical technique used to estimate **unknown values of a function within the range of known data points**. Unlike extrapolation, which predicts values outside the given range, interpolation focuses on filling gaps in existing data with a high degree of reliability. This makes it indispensable in **scientific computing, engineering, data science, image processing, climate modeling, and numerical simulations**, where continuous information must be inferred from discrete observations.  
+Interpolation is a numerical technique used to estimate unknown values of a function based on a finite set of known data points. It is especially useful when the functional relationship between variables is unknown and experimental or sampled data is available.
 
-The central idea of interpolation is to construct a mathematical function that approximates the underlying relationship between the given data points. Several methods are commonly employed, each with distinct characteristics, advantages, and limitations:  
+In this experiment, three interpolation methods are used, each differing in complexity and accuracy.
 
 ### 1. Linear Interpolation  
-- The simplest method, where straight lines are drawn between consecutive data points.  
-- Provides quick estimates but lacks smoothness and may be inaccurate for rapidly varying functions.  
+<img width="988" height="204" alt="image" src="https://github.com/user-attachments/assets/4472aedf-06d1-498f-b255-b030e1159c5e" />
 
-### 2. Polynomial Interpolation  
-- Constructs a single polynomial of degree *(n – 1)* passing through *n* given points.  
-- Includes techniques like **Lagrange Interpolation** and **Newton’s Divided Difference Method**.  
-- Useful for small datasets but may suffer from **Runge’s phenomenon** (oscillations) when many points are used.  
+Key characteristics:
 
-### 3. Newton’s Forward and Backward Interpolation  
-- Specifically designed for **evenly spaced data points**.  
-- Utilizes forward and backward differences to generate efficient polynomial approximations.  
-- Suitable for tabulated functions in physics, statistics, and engineering experiments.  
+- Uses only two nearest data points
 
-### 4. Spline Interpolation  
-- Uses **piecewise polynomials** (commonly cubic splines) to ensure smoothness and continuity.  
-- Provides greater accuracy and stability compared to high-degree single polynomials.  
-- Widely applied in computer graphics, CAD systems, and curve fitting.  
+- Easy to implement
 
-### 5. Nearest-Neighbor Interpolation  
-- Assigns the value of the closest known data point to the unknown point.  
-- Extremely fast but may lead to discontinuities, making it less suitable for precise scientific tasks.  
+- Less accurate for nonlinear data
+
+This method is suitable when data points are closely spaced and the function varies smoothly.
+
+### 2. Lagrange Interpolation
+<img width="976" height="245" alt="image" src="https://github.com/user-attachments/assets/7f68a8d4-9971-4fb1-8ba7-5a0e1ba9a377" />
+
+Key characteristics:
+
+- Works for unevenly spaced data
+
+- Produces exact fit for given points
+
+- Polynomial degree increases with number of points
+
+This method is widely used when a global interpolation across all data points is required.
+
+### 3. Newton’s Divided Difference Method
+<img width="961" height="334" alt="image" src="https://github.com/user-attachments/assets/b3103f2b-d3d4-42fa-901a-b276b47472d3" />
+
+Key characteristics:
+
+- Efficient for adding new data points
+
+- Numerically stable compared to Lagrange for large datasets
+
+- Suitable for computational implementation
+
 
 ### Evenly vs. Unevenly Spaced Data  
 - For **evenly spaced points**, Newton’s Forward and Backward methods are efficient and computationally straightforward.  
