@@ -1,5 +1,13 @@
 ## Theory  
 
+Interpolation is a fundamental numerical technique used to construct an approximate function 
+𝑃𝑛(𝑥)that passes exactly through a given set of data points:
+
+<img width="248" height="37" alt="image" src="https://github.com/user-attachments/assets/ad1ea27c-1da2-4e1a-8c13-399c8b7fcbe5" />
+
+where yi​=f(xi​), The objective is to estimate unknown values of the function within the range of the known data. Unlike regression, interpolation assumes that the approximating curve passes exactly through all provided points.
+
+In general, for n+1 distinct data points, there exists a unique polynomial of degree at most 𝑛 that interpolates the data.
 Interpolation is a numerical technique used to estimate unknown values of a function based on a finite set of known data points. It is especially useful when the functional relationship between variables is unknown and experimental or sampled data is available.
 
 In this experiment, three interpolation methods are used, each differing in complexity and accuracy.
