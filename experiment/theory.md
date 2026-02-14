@@ -12,6 +12,28 @@ Interpolation is a numerical technique used to estimate unknown values of a func
 
 In this experiment, three interpolation methods are used, each differing in complexity and accuracy.
 
+
+### General Form of Interpolation Polynomial
+
+The interpolating polynomial of degree 𝑛 can be expressed as:
+
+<img width="359" height="36" alt="image" src="https://github.com/user-attachments/assets/298e4ce7-de3b-4d08-8080-f25a22ae991c" />
+
+The interpolation error at any point 𝑥 is given by:
+
+<img width="479" height="73" alt="image" src="https://github.com/user-attachments/assets/eb5abda5-dfdd-4290-ab2f-e89643f94fc4" />
+
+where 𝜉 lies in the interval containing the data points.
+
+This expression shows that:
+
+- Error increases with higher derivatives.
+
+- Error depends strongly on spacing of data points.
+
+- Degree of polynomial affects numerical stability.
+
+
 ### 1. Linear Interpolation  
 <img width="988" height="204" alt="image" src="https://github.com/user-attachments/assets/4472aedf-06d1-498f-b255-b030e1159c5e" />
 
